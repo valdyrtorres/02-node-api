@@ -77,6 +77,24 @@ Neste caso já temos um bom ponto de partida
 
 Aqui vamos melhorar com regras de negócio
 
+Por exemplo: Eu posso criar uma submissão de um desafio que não existe? Ou ainda, de um aluno
+que não existe?
+R: não posso 
+
+Mas quem tem essa informação?
+R: Na maioria das vezes, o banco de dados que é um recurso externo
+
+Aqui entram os repositórios
+Criando StudentsRepository.ts
+
+Perceba que nem falamos ainda qual banco de dados a utilizar
+Só definimos contratos
+
+Conceito de in-memory-database Martin Fowler para testes.
+
+
+
+
 
 
 
